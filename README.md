@@ -1,3 +1,5 @@
+Esse repositório contém uma descrição detalhada e o código usado para elaborar a calculadora da previdência do Estadão, publicada [aqui](https://www.estadao.com.br/infograficos/economia,calculadora-da-previdencia-quantos-anos-voce-tera-que-trabalhar,973533).
+
 # Regras para aposentadoria
 
 ## Atual
