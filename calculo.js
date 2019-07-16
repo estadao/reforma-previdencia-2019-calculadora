@@ -335,9 +335,15 @@
 
     /**
      * Contribuição mínima para benefício integral por idade durante a transição
-     * é de 40 anos para ambos os sexos
+     * é de 40 anos para homens e 35 para mulheres
      */
-    const minContribution = 40;
+    let minContribution;
+
+    if (gender === 'male') {
+      minContribution = 40;
+    } else {
+      minContribution = 35;
+    }
 
     /**
      * Quantidade de anos necessária para aposentar com benefício integral
@@ -474,9 +480,15 @@
 
     /**
      * Contribuição mínima para benefício integral pelo sistema de pontos
-     * durante a transição é de 40 anos para ambos os sexos
+     * durante a transição é de 40 anos para homens e 35 para mulheres
      */
-    const minContribution = 40;
+    let minContribution;
+
+    if (gender === 'male') {
+      minContribution = 40;
+    } else {
+      minContribution = 35;
+    }
 
     /**
      * Quantidade de anos necessária para aposentar com benefício integral
@@ -604,9 +616,15 @@
 
     /**
      * Contribuição mínima para benefício integral por idade
-     * no regime atual é de 30 anos para ambos os sexos
+     * após a reforma é de 40 anos para homens e 35 para mulheres
      */
-    const minContribution = 40;
+    let minContribution;
+
+    if (gender === 'male') {
+      minContribution = 40;
+    } else {
+      minContribution = 35;
+    }
 
     /**
      * Quantidade de anos necessária para aposentar com benefício integral
