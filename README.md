@@ -56,25 +56,25 @@ Esse repositório contém uma descrição detalhada e o código usado para elabo
 * **Idade mínima final:** 62 anos (mulheres) e 65 anos (homens)
 * **Progressão idade:** aumenta 6 meses a cada ano para mulheres
 * **Carência inicial:** 15 anos
-* **Carência final:** 20 anos
-* **Progressão carência:** aumenta 6 meses a cada ano
+* **Carência final:** 15 anos (mulheres) e 20 anos (homens)
+* **Progressão carência:** aumenta 6 meses a cada ano para homens
 * **Fator previdenciário:** não tem
 
 
 
-|  Ano | Idade 👱‍♀️ | Idade 👱‍♂️ | Carência |
-| ---: | -------: | -------: | -------: |
-| 2019 |       60 |       65 |       15 |
-| 2020 |     60,5 |       65 |     15,5 |
-| 2021 |       61 |       65 |       16 |
-| 2022 |     61,5 |       65 |     16,5 |
-| 2023 |       62 |       65 |       17 |
-| 2024 |       62 |       65 |     17,5 |
-| 2025 |       62 |       65 |       18 |
-| 2026 |       62 |       65 |     18,5 |
-| 2027 |       62 |       65 |       19 |
-| 2028 |       62 |       65 |     19,5 |
-| 2029 |       62 |       65 |       20 |
+|  Ano | Idade 👱‍♀️ | Idade 👱‍♂️ | Carência 👱‍♀️ | Carência 👱‍♂️ |
+| ---: | -------: | -------: | ----------: | ----------: |
+| 2019 |       60 |       65 |          15 |          15 |
+| 2020 |     60,5 |       65 |          15 |        15,5 |
+| 2021 |       61 |       65 |          15 |          16 |
+| 2022 |     61,5 |       65 |          15 |        16,5 |
+| 2023 |       62 |       65 |          15 |          17 |
+| 2024 |       62 |       65 |          15 |        17,5 |
+| 2025 |       62 |       65 |          15 |          18 |
+| 2026 |       62 |       65 |          15 |        18,5 |
+| 2027 |       62 |       65 |          15 |          19 |
+| 2028 |       62 |       65 |          15 |        19,5 |
+| 2029 |       62 |       65 |          15 |          20 |
 
 
 
@@ -160,7 +160,7 @@ Esse repositório contém uma descrição detalhada e o código usado para elabo
 ### Aposentadoria por idade urbana
 
 * **Idade mínima:** 62 anos (mulheres) e 65 anos (homens)
-* **Carência:** 20 anos
+* **Carência:** 15 anos (mulheres) e 20 anos (homens)
 * **Fator previdenciário:** não tem
 
 
@@ -208,7 +208,7 @@ Não existe mais essa modalidade.
 ### Aposentadoria por idade urbana
 
 * 60% do “salário de benefício”
-* +2% para cada ano que exceder 20 anos
+* +2% para cada ano que exceder 15 anos (mulheres) ou 20 anos (homens)
 * **Mínimo:** máximo entre 60% do “salário de benefício” e um salário mínimo
 * **Máximo:** mínimo entre 100% do “salário de benefício” e o teto
 
@@ -219,7 +219,7 @@ Não existe mais essa modalidade.
 #### Sistema de pontos
 
 * 60% do “salário de benefício”
-* +2% para cada ano que exceder 20 anos
+* +2% para cada ano que exceder 15 anos (mulheres) ou 20 anos (homens)
 * **Mínimo:** máximo entre 70 / 75% do “salário de benefício” e um salário mínimo
 * **Máximo:** mínimo entre 100% do “salário de benefício” e o teto
 
@@ -228,7 +228,7 @@ Não existe mais essa modalidade.
 #### Idade e tempo de contribuição
 
 * 60% do “salário de benefício”
-* +2% para cada ano que exceder 20 anos
+* +2% para cada ano que exceder 15 anos (mulheres) ou 20 anos (homens)
 * **Mínimo:** máximo entre 70 / 75% do “salário de benefício” e um salário mínimo
 * **Máximo:** mínimo entre 100% do “salário de benefício” e o teto
 
@@ -237,7 +237,7 @@ Não existe mais essa modalidade.
 #### Tempo de contribuição
 
 * 60% do “salário de benefício”
-* +2% para cada ano que exceder 20 anos
+* +2% para cada ano que exceder 15 anos (mulheres) ou 20 anos (homens)
 * Aplicação do *fator previdenciário*
 * **Mínimo:** máximo entre “salário de benefício” após *fator previdenciário* e um salário mínimo
 * **Máximo:** mínimo entre 100% do “salário de benefício” e o teto
@@ -249,7 +249,7 @@ Não existe mais essa modalidade.
 ### Aposentadoria por idade urbana
 
 * 60% do “salário de benefício”
-* +2% para cada ano que exceder 20 anos
+* +2% para cada ano que exceder 15 anos (mulheres) ou 20 anos (homens)
 * **Mínimo:** máximo entre 60% do “salário de benefício” e um salário mínimo
 * **Máximo:** teto
 
@@ -285,7 +285,7 @@ Não é possível conseguir o benefício integral por essa regra por conta do *f
 ### Aposentadoria por idade urbana
 
 * Idade mínima naquele ano ⇒ 60%
-* 40 anos de contribuição ⇒ 40%
+* 35 anos (mulheres) ou 40 anos (homens) de contribuição ⇒ 40%
 
 
 
@@ -294,14 +294,14 @@ Não é possível conseguir o benefício integral por essa regra por conta do *f
 #### Sistema de pontos
 
 * idade + tempo de contribuição ≥ pontos ⇒ 60%
-* 40 anos de contribuição ⇒ 40%
+* 35 anos (mulheres) ou 40 anos (homens) de contribuição ⇒ 40%
 
 
 
 #### Idade e tempo de contribuição
 
 * Idade mínima naquele ano ⇒ 60%
-* 40 anos de contribuição ⇒ 40%
+* 35 anos (mulheres) ou 40 anos (homens) de contribuição ⇒ 40%
 
 
 
@@ -316,4 +316,4 @@ Não é possível conseguir o benefício integral por essa regra por conta do *f
 ### Aposentadoria por idade urbana
 
 * 62 anos (mulheres) e 65 anos (homens) ⇒ 60%
-* 40 anos de contribuição ⇒ 40%
+* 35 anos (mulheres) ou 40 anos (homens) de contribuição ⇒ 40%
